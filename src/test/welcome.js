@@ -7,9 +7,14 @@ function Welcome(props){
             Hello, {props.name}!
         </h1>
         <p>
-            Mr.{props.name}, please wait until our execute will reach you out.
-            We are searching for a matched associate for you. <br/><br/>
-            Thanks for your patience!!
+            Thanks for visiting our Testing React Deployment Application. <br />
+            Dear {props.name}, this app is under build stage. We can give the 
+            update once it available.<br/><br/>
+        </p>
+        <p>
+            Regards,<br/>
+            Shaik Mulla Karimulla<br/>
+            Application developer
         </p>
         </>
     );
